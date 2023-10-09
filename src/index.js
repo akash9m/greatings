@@ -7,7 +7,7 @@
 //Morning = red, Afternoon = green, Night = blue.
 import React from "react";
 import ReactDOM from "react-dom";
-var date = new Date(2022, 1, 1, 10);
+var date = new Date();
 var time = date.getHours();
 var selutation;
 var customstyle = { color: "" };
